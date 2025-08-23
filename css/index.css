@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-page-container{
+    background-color: #292929;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding-right: 150px;
+    align-items: center;
+}
+.left-header-part{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 0 150px 0 100px;
+}
+.right-header-part{
+
+
+}
+.website-title{
+    color: #EF1A1A;
+    font-size: 24px;
+    font-weight:700;
+    padding-top: 8px;
+
+}
+.header-button{
+    color: #fafafa;
+    height: 40px;
+    margin-right: 24px;
+    margin-left: 20px;
+    padding : 0 10px 0 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 2px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header-button:hover{
+    background-color: #f01818;
+}
+.search-movies{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url('../assets/search-icon.png');
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    background-position: 10px 6px;
+}
+input[type=text]:focus{
+    outline: 1px solid #f01818;
+    border-radius: 5px;
+
+}
