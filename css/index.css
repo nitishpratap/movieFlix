@@ -7,7 +7,6 @@
 .home-page-container{
     background-color: #292929;
     width: 100vw;
-    height: 100vh;
 }
 
 .header{
@@ -58,9 +57,86 @@
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
     background-position: 10px 6px;
+    color: #fafafa;
 }
 input[type=text]:focus{
     outline: 1px solid #f01818;
     border-radius: 5px;
+    color: #fafafa;
+}
+.movie-banner{
+    background-image: url('../assets/hero-movie.jpg');
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding: 0 64px;
+}
+.movie-banner p{
+    color: #fafafa;
+    font-size: 72px;
+    font-weight: 700;
+}
+.movie-banner div{
+    color: #a3a3a3;
+    font-size: 20px;
+    width: 300px;
+}
 
+.movies{
+    padding: 0 64px;
+}
+.trending-container{
+    padding: 48px 0;
+}
+.trending-container p{
+    color: #fafafa;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.trending-container img{
+    width: 171px;
+    height: 263px;
+
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.movie-title{
+    color: #fafafa;
+    font-size: 20px;
+}
+.image-card ul{
+    display: flex;
+    gap: 20px;
+
+}
+.rating{
+    color: #EF1A1A;
+}
+.genre,.movies-year{
+    color: #a3a3a3;
+}
+.add-to-list{
+    height: 40px;
+    padding: 10px;
+    background-color: #f01818;
+    color: #fafafa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.movie-details{
+    position: relative;
+    bottom: 125px;
+    padding: 10px;
+
+}
+.image-card:hover{
+    /*display: flex;*/
 }
