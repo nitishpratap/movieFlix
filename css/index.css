@@ -57,12 +57,12 @@
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
     background-position: 10px 6px;
-    color: #fafafa;
+    color: red;
 }
 input[type=text]:focus{
     outline: 1px solid #f01818;
     border-radius: 5px;
-    color: #fafafa;
+    color: #a3a3a3;
 }
 .movie-banner{
     background-image: url('../assets/hero-movie.jpg');
@@ -110,6 +110,9 @@ input[type=text]:focus{
     color: #fafafa;
     font-size: 20px;
 }
+.image-card {
+    position: relative;
+}
 .image-card ul{
     display: flex;
     gap: 20px;
@@ -131,12 +134,27 @@ input[type=text]:focus{
     cursor: pointer;
     margin-top: 10px;
 }
-.movie-details{
-    position: relative;
-    bottom: 125px;
+.movie-details {
+    position: absolute; /* instead of relative */
+    bottom: 0;
+    left: 0;
+    width: 100%;
     padding: 10px;
-
+    opacity: 0;
+    visibility: hidden;
 }
-.image-card:hover{
-    /*display: flex;*/
+.image-card:hover .movie-details {
+    opacity: 1;
+    visibility: visible;
+}
+
+.image-card:hover {
+    cursor: pointer;
+}
+.image-card img {
+    transition: transform 0.3s ease;
+}
+
+.image-card:hover img {
+    transform: scale(1.05);
 }
