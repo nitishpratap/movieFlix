@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MovieFlix</title>
+    <link rel="stylesheet" href="./css/shows.css"/>
+</head>
+<body>
+<div class="tv-shows-page">
+    <div class="header">
+        <div class="left-header-part">
+            <span class="website-title">MovieFlix</span>
+            <div class="buttons">
+                <button class="header-button home">Home</button>
+                <button class="header-button movies">Movies</button>
+                <button class="header-button tv-shows">Tv Shows</button>
+                <button class="header-button my-list">My List</button>
+            </div>
+        </div>
+        <div class="right-header-part">
+            <label>
+                <input class="search-movies" type="text" placeholder="Search Movies"/>
+            </label>
+        </div>
+    </div>
+
+
+    <div class="page-content">
+        <div class="title">
+            <p class="page-title">Tv-Shows</p>
+            <p class="page-description">Binge-watch the best TV series</p>
+        </div>
+
+
+        <div class="container">
+            <div class="action-container">
+                <p>Trending Series</p>
+                <div class="images">
+                    <div class="image-card">
+                        <img src="./assets/movie-1.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Cosmic Odyssey</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Sci-Fi
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.7</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list" data-id="comics_odyssey">Add To List</button>
+                        </div>
+                    </div>
+
+                    <div class="image-card">
+                        <img src="./assets/horror-1.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Dark Shadow</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Horror
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating">7.9</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-3.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Love in the City</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2023</span>
+                                <ul>
+                                    <li class="genre">
+                                        Romance
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.2</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-4.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Cosmic Odyssey</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Adventure
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.5</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-5.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Dragon's Quest</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Fantasy
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">9.1</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-6.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Night Hunter</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2023</span>
+                                <ul>
+                                    <li class="genre">
+                                        Thriller
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.0</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="action-container">
+                <p>Crime Series</p>
+                <div class="images">
+                    <div class="image-card">
+                        <img src="./assets/movie-1.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Cosmic Odyssey</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Sci-Fi
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.7</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list" data-id="comics_odyssey">Add To List</button>
+                        </div>
+                    </div>
+
+                    <div class="image-card">
+                        <img src="./assets/horror-1.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Dark Shadow</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Horror
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating">7.9</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-3.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Love in the City</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2023</span>
+                                <ul>
+                                    <li class="genre">
+                                        Romance
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.2</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-4.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Cosmic Odyssey</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Adventure
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.5</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-5.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Dragon's Quest</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Fantasy
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">9.1</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-6.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Night Hunter</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2023</span>
+                                <ul>
+                                    <li class="genre">
+                                        Thriller
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.0</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="action-container">
+                <p>Comedy Series</p>
+                <div class="images">
+                    <div class="image-card">
+                        <img src="./assets/movie-1.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Cosmic Odyssey</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Sci-Fi
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.7</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list" data-id="comics_odyssey">Add To List</button>
+                        </div>
+                    </div>
+
+                    <div class="image-card">
+                        <img src="./assets/horror-1.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Dark Shadow</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Horror
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating">7.9</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-3.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Love in the City</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2023</span>
+                                <ul>
+                                    <li class="genre">
+                                        Romance
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.2</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-4.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Cosmic Odyssey</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Adventure
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.5</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-5.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Dragon's Quest</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Fantasy
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">9.1</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-6.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Night Hunter</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2023</span>
+                                <ul>
+                                    <li class="genre">
+                                        Thriller
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.0</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="action-container">
+                <p>Documentary Series
+                <div class="images">
+                    <div class="image-card">
+                        <img src="./assets/movie-1.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Cosmic Odyssey</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Sci-Fi
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.7</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list" data-id="comics_odyssey">Add To List</button>
+                        </div>
+                    </div>
+
+                    <div class="image-card">
+                        <img src="./assets/horror-1.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Dark Shadow</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Horror
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating">7.9</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-3.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Love in the City</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2023</span>
+                                <ul>
+                                    <li class="genre">
+                                        Romance
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.2</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-4.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Cosmic Odyssey</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Adventure
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.5</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-5.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Dragon's Quest</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Fantasy
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">9.1</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-6.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Night Hunter</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2023</span>
+                                <ul>
+                                    <li class="genre">
+                                        Thriller
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.0</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="action-container">
+                <p>Anime Series</p>
+                <div class="images">
+                    <div class="image-card">
+                        <img src="./assets/movie-1.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Cosmic Odyssey</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Sci-Fi
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.7</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list" data-id="comics_odyssey">Add To List</button>
+                        </div>
+                    </div>
+
+                    <div class="image-card">
+                        <img src="./assets/horror-1.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Dark Shadow</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Horror
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating">7.9</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-3.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Love in the City</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2023</span>
+                                <ul>
+                                    <li class="genre">
+                                        Romance
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.2</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-4.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Cosmic Odyssey</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Adventure
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.5</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-5.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Dragon's Quest</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2024</span>
+                                <ul>
+                                    <li class="genre">
+                                        Fantasy
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">9.1</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                    <div class="image-card">
+                        <img src="./assets/movie-6.jpg" alt="movies image"/>
+                        <div class="movie-details">
+                            <p style="font-size: 20px;margin-bottom: 10px" class="movie-title">Night Hunter</p>
+                            <div style="display: flex;gap: 20px">
+                                <span class="movies-year">2023</span>
+                                <ul>
+                                    <li class="genre">
+                                        Thriller
+                                    </li>
+                                    <li class="genre">
+                                        <span class="rating ">8.0</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="add-to-list">Add To List</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-content" >
+            <div>
+                <p> &copy; 2025 MovieFlix. Your favorite movie destination.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="./js/shows.js"></script>
+</body>
+</html>

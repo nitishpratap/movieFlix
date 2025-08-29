@@ -80,7 +80,7 @@ input[type=text]:focus{
 }
 .movie-banner div{
     color: #a3a3a3;
-    font-size: 20px;
+    /*font-size: 20px;*/
     width: 300px;
 }
 
@@ -122,6 +122,7 @@ input[type=text]:focus{
     color: #EF1A1A;
 }
 .genre,.movies-year{
+    font-size: 14px;
     color: #a3a3a3;
 }
 .add-to-list{
@@ -157,4 +158,45 @@ input[type=text]:focus{
 
 .image-card:hover img {
     transform: scale(1.05);
+}
+.popular-container{
+    color: #fafafa;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.popular-container img{
+    width: 171px;
+    height: 263px;
+
+}
+.popular-container-heading{
+    margin-bottom: 20px;
+}
+.recent-container{
+    color: #fafafa;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.recent-container img{
+    width: 171px;
+    height: 263px;
+
+}
+.recent-container-heading{
+    margin-bottom: 20px;
+}
+.footer{
+    padding-top: 50px;
+    border-top: 1px solid #a3a3a3;
+}
+.footer-content{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a3a3a3;
 }

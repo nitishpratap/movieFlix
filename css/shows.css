@@ -1,0 +1,173 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tv-shows-page{
+    background-color: #292929;
+    width: 100vw;
+}
+
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding-right: 150px;
+    align-items: center;
+}
+.header-button{
+    color: #fafafa;
+    height: 40px;
+    margin-right: 24px;
+    margin-left: 20px;
+    padding : 0 10px 0 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 2px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header-button:hover{
+    background-color: #f01818;
+}
+
+.movies{
+    padding: 0 64px;
+}
+
+.left-header-part{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 0 150px 0 100px;
+}
+.website-title{
+    color: #EF1A1A;
+    font-size: 24px;
+    font-weight:700;
+    padding-top: 8px;
+
+}
+
+.search-movies{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url('../assets/search-icon.png');
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    background-position: 10px 6px;
+    color: red;
+}
+input[type=text]:focus{
+    outline: 1px solid #f01818;
+    border-radius: 5px;
+    color: #a3a3a3;
+}
+
+
+.page-title{
+    font-size: 36px;
+    color: #fafafa;
+    font-weight: 700;
+}
+.page-description{
+    font-size: 16px;
+    color: #a3a3a3;
+    margin-top: 10px;
+}
+.page-content{
+    padding: 0 80px 0 80px;
+}
+.container{
+    padding: 0 64px;
+}
+
+.action-container{
+    padding: 48px 0;
+}
+.action-container p{
+    color: #fafafa;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.action-container img{
+    width: 171px;
+    height: 263px;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.movie-title{
+    color: #fafafa;
+    font-size: 20px;
+}
+.image-card {
+    position: relative;
+}
+.image-card ul{
+    display: flex;
+    gap: 20px;
+
+}
+.rating{
+    color: #EF1A1A;
+}
+.genre,.movies-year{
+    font-size: 14px;
+    color: #a3a3a3;
+}
+.add-to-list{
+    height: 40px;
+    padding: 10px;
+    background-color: #f01818;
+    color: #fafafa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.movie-details {
+    position: absolute; /* instead of relative */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+}
+.image-card:hover .movie-details {
+    opacity: 1;
+    visibility: visible;
+}
+
+.image-card:hover {
+    cursor: pointer;
+}
+.image-card img {
+    transition: transform 0.3s ease;
+}
+
+.image-card:hover img {
+    transform: scale(1.05);
+}
+.footer{
+    padding-top: 50px;
+    border-top: 1px solid #a3a3a3;
+}
+.footer-content{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a3a3a3;
+}

@@ -48,6 +48,3 @@ allButtons.forEach((button) => {
        localStorage.setItem('moviesKey', movieKey);
     })
 })
-
-localStorage.removeItem('name')
-localStorage.removeItem('moviesKey')
